@@ -1,0 +1,76 @@
+{
+  "pvsamv1": [
+    [
+      "snow_array",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "use_snow_weather_file",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "start_day_of_year",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "spectral_correction_model_choice",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "celltech",
+      "\"value\" error, could not find attribute by that name"
+    ]
+  ],
+  "grid": [],
+  "utilityrate5": [],
+  "singleowner": [
+    [
+      "depr_en_basis_mat",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "depr_basis_mat",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "non_energy_revenue",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "non_energy_revenue_escal",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "non_energy_revenue_ret",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "non_energy_revenue_ds",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "non_energy_expenses",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "non_energy_expenses_escal",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "non_energy_expenses_ret",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "non_energy_expenses_ds",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "energy_revenue_ret",
+      "\"value\" error, could not find attribute by that name"
+    ],
+    [
+      "energy_expenses_ret",
+      "\"value\" error, could not find attribute by that name"
+    ]
+  ]
+}
