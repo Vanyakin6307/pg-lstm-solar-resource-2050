@@ -1,0 +1,181 @@
+{
+  "status": "PREPUBLICATION_NOT_APPROVED",
+  "files": [
+    {
+      "repository_path": "notebooks/01_physical_base/01_Tumbabiro_Physical_2050_Master.ipynb",
+      "source": "01_Tumbabiro_Physical_2050_Master(3).ipynb",
+      "bytes": 16339,
+      "sha256": "c6b0a8c2d9fcadc4fcf16473210a7eb521e762dd8295ffede742ac2e212da407",
+      "release_status": "PENDING_COAUTHOR_REVIEW",
+      "notes": "Candidate: review choice against the authors approved notebook."
+    },
+    {
+      "repository_path": "notebooks/02_training/02_Tumbabiro_PI_LSTM_V24_Train_Master_V1.ipynb",
+      "source": "02_Tumbabiro_PI_LSTM_V24_Train_Master_V1(3).ipynb",
+      "bytes": 616248,
+      "sha256": "1333b06524cc571a590c35f031a69d75cf898a8b4dfb974410493b03adbd7f54",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Training notebook; introductory text mentions V2.3; coauthors must verify and correct any stale narrative."
+    },
+    {
+      "repository_path": "notebooks/03_generation/03_Tumbabiro_Synthetic_2050_SAM_MasterV24V1_Rectificado.ipynb",
+      "source": "03_Tumbabiro_Synthetic_2050_SAM_MasterV24V1_Rectificado.ipynb",
+      "bytes": 302147,
+      "sha256": "c981f47366e1903c00a9f10b7a0e4caacb5858a2dddc3fc512e61235a2327cd6",
+      "release_status": "PENDING_COAUTHOR_REVIEW",
+      "notes": "Candidate rectified variant; confirm approved canonical status before release."
+    },
+    {
+      "repository_path": "notebooks/04_validation/R1_C02_TEST_Benchmarks_Comparative_V01.ipynb",
+      "source": "R1_C02_TEST_Benchmarks_Comparative_V01.ipynb",
+      "bytes": 74352,
+      "sha256": "0bbeba33a75306eb755bc5b054fdc43e8d77c285b22cf785ce24785f06f33d13",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Benchmark notebook; check manuscript erratum for DNI strongest baseline."
+    },
+    {
+      "repository_path": "notebooks/04_validation/R1_C04_TEST_Meteorological_Climatology_Sensitivity_V01.ipynb",
+      "source": "R1_C04_TEST_Meteorological_Climatology_Sensitivity_V01.ipynb",
+      "bytes": 74939,
+      "sha256": "d47eda08063c026a64a6322c16c86d97a7d0e0c160a515606c1a45567817b456",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Sensitivity A-B1, frozen model, not ablation."
+    },
+    {
+      "repository_path": "notebooks/04_validation/R1_C01_2023_Annual_RAW_Rollout_V01.ipynb",
+      "source": "R1_C01_2023_Annual_RAW_Rollout_V01.ipynb",
+      "bytes": 28113,
+      "sha256": "06f123c57e3ca17526f8935060b4160cc397f10951f9ed10713c8fe275e8a9c1",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "2023 retrospective RAW rollout."
+    },
+    {
+      "repository_path": "notebooks/04_validation/R1_C01_2024_Annual_RAW_Rollout_V01.ipynb",
+      "source": "R1_C01_2024_Annual_RAW_Rollout_V01.ipynb",
+      "bytes": 28232,
+      "sha256": "53073a782c302e1eebb6dc82d27576216bd17b756d643c5ba57ba66dc99afe28",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "2024 retrospective RAW rollout."
+    },
+    {
+      "repository_path": "notebooks/04_validation/R1_C01_2023_FINAL_Feasibility_Audit_V01.ipynb",
+      "source": "R1_C01_2023_FINAL_Feasibility_Audit_V01.ipynb",
+      "bytes": 18078,
+      "sha256": "331653748c708e30f7c28d2ea2e95a4946e5a543c2495879b735993455bc77db",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "No accepted retrospective FINAL in 2023."
+    },
+    {
+      "repository_path": "notebooks/04_validation/R1_C01_2024_FINAL_Feasibility_Audit_V01.ipynb",
+      "source": "R1_C01_2024_FINAL_Feasibility_Audit_V01.ipynb",
+      "bytes": 18581,
+      "sha256": "a5f7ba603af2a2ffd2f8421c695a21135c9166c6d2a42ca17ebf4d6685502003",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "No accepted retrospective FINAL in 2024."
+    },
+    {
+      "repository_path": "models/PI_LSTM_V2_4_V1_logDHI_partition_stride2.keras",
+      "source": "PI_LSTM_V2_4_V1_logDHI_partition_stride2(1).keras",
+      "bytes": 512922,
+      "sha256": "5aef4783a3dc0b37b98711ebb489d20458f6c5efd2308ca579909e4cc8724a4e",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Approved trained artifact: SHA matches final resource manifest."
+    },
+    {
+      "repository_path": "models/scaler_hist_v24_v1.joblib",
+      "source": "scaler_hist_v24_v1.joblib",
+      "bytes": 2135,
+      "sha256": "a7189921396242f683bd763b4252667e5a7a978c652b039abcbbb1551e586129",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Historical feature scaler: verify compatibility on fresh runtime."
+    },
+    {
+      "repository_path": "models/scaler_fut_v24_v1.joblib",
+      "source": "scaler_fut_v24_v1.joblib",
+      "bytes": 1399,
+      "sha256": "b4917f7df32a5e4ade2148cbb9d42e1af7a4a6696f1a0a2b5ec6382d44421e9e",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Future feature scaler: verify compatibility on fresh runtime."
+    },
+    {
+      "repository_path": "data/intermediate/physical_2050_base.csv",
+      "source": "physical_2050_base(7).csv",
+      "bytes": 1098534,
+      "sha256": "230cf4a767e52917b803f4c1a45add56c48a89aa88962fe3962188e265b9fd1f",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Approved intermediate data: SHA matches final resource manifest."
+    },
+    {
+      "repository_path": "data/final/PI_LSTM_V24V1_2050_FINAL_RESOURCE.csv",
+      "source": "PI_LSTM_V24V1_2050_FINAL_RESOURCE(1).csv",
+      "bytes": 3753676,
+      "sha256": "6a2d688bd510f82279af8ff9f89beedfd5d8de36e39cff8c237a7f64fd055872",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Approved final resource: SHA matches final resource manifest; 17,520 data rows."
+    },
+    {
+      "repository_path": "data/final/Tumbabiro_PI_LSTM_V24V1_2050_SAM.csv",
+      "source": "Tumbabiro_PI_LSTM_V24V1_2050_SAM.csv",
+      "bytes": 1527359,
+      "sha256": "a54dd7f659330495a4f1ca8949dd730dd1030ad2a0b05738d8743253ac0ca693",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Exact FINAL SAM weather file: SHA matches SAM export manifest."
+    },
+    {
+      "repository_path": "metadata/FINAL_RESOURCE_MANIFEST_V24V1.json",
+      "source": "FINAL_RESOURCE_MANIFEST_V24V1.json",
+      "bytes": 2759,
+      "sha256": "ae2f1a239e6f11012b84e219186234759d2330d73a32e2f9369f82df33f98157",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Canonical original hashes and resource decision."
+    },
+    {
+      "repository_path": "metadata/SAM_EXPORT_MANIFEST_V24V1.json",
+      "source": "SAM_EXPORT_MANIFEST_V24V1.json",
+      "bytes": 1439,
+      "sha256": "a6fef8c89073300442cfc50e575ed4f8a1e977085d2d8e66bdec7d161c486a65",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Canonical exported SAM file hash and metadata."
+    },
+    {
+      "repository_path": "metadata/final_model_selection_v24_v1.json",
+      "source": "final_model_selection_v24_v1(1).json",
+      "bytes": 2840,
+      "sha256": "ad075fab0d66c347a74425a41770f80c8257411e5d761da68751b1c2028db564",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Frozen-model selection and independent TEST metrics."
+    },
+    {
+      "repository_path": "sam/Tumbabiro Comercial.sam",
+      "source": "Tumbabiro Comercial.sam",
+      "bytes": 1444880,
+      "sha256": "f4d9425548f4497c8bfbeb059d1e2f6ba01af2fb5fdea1137b14114b647823d6",
+      "release_status": "PENDING_COAUTHOR_REVIEW",
+      "notes": "Candidate SAM project file; needs coauthor review of configurations and paths."
+    },
+    {
+      "repository_path": "sam/R1_C01_2024_SAM_LeapDay_Adapter_V01.py",
+      "source": "R1_C01_2024_SAM_LeapDay_Adapter_V01.py",
+      "bytes": 3398,
+      "sha256": "9bcc3233a8b2efcd1ce07123bd46237a59efab0f391241efbdcd3e38106417bd",
+      "release_status": "CHECK_REPRODUCIBILITY",
+      "notes": "Retrospective 2024 calendar adapter; not complete PySAM configuration."
+    },
+    {
+      "repository_path": "notebooks/05_climatological_reference/R1_Editor_FINAL_2050_vs_CMMY_Reproducible_V01.ipynb",
+      "source": "Archive: CMMY_2050_Coautores.zip!R1_Editor_CMMY_FINAL2050_V01/R1_Editor_FINAL_2050_vs_CMMY_Reproducible_V01.ipynb",
+      "bytes": 2344,
+      "sha256": "1c382e306fa22641a3fd56c9494face39655c7fad3f0f51544fbdc22ef9a9153",
+      "release_status": "PENDING_COAUTHOR_REVIEW",
+      "notes": "Climatological median-year comparison; review for paths before publication."
+    },
+    {
+      "repository_path": "analysis/cmy_compute.py",
+      "source": "Archive: CMMY_2050_Coautores.zip!R1_Editor_CMMY_FINAL2050_V01/cmy_compute.py",
+      "bytes": 11074,
+      "sha256": "0486a64899c1f98dba5d034b94ad224d0db1f2a425f6aa448d0e235f8f90617e",
+      "release_status": "PENDING_COAUTHOR_REVIEW",
+      "notes": "CMMY analysis script; review path assumptions and rerun in release environment."
+    }
+  ]
+}

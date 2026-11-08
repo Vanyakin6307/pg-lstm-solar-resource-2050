@@ -1,0 +1,85 @@
+{
+  "selected_model": "PI-LSTM V2.4 V1 RAW",
+  "selected_model_file": "PI_LSTM_V2_4_V1_logDHI_partition_stride2.keras",
+  "selected_model_sha256": "5aef4783a3dc0b37b98711ebb489d20458f6c5efd2308ca579909e4cc8724a4e",
+  "selected_model_size_bytes": 512922,
+  "selection_status": "CANONICAL",
+  "test_split": "2023-2024",
+  "evaluation_strategy": "non_overlapping_blocks",
+  "history_length_L": 72,
+  "forecast_horizon_H": 24,
+  "stride": 2,
+  "diffuse_representation": "qDHI = log1p(kDHI)",
+  "kDNI_cap": 1.2,
+  "kDHI_safety_cap": 8.0,
+  "calibration_experiment": "Isotonic regression on diffuse ratio",
+  "calibration_fit_split": "VALIDATION 2020-2022",
+  "calibration_status": "REJECTED",
+  "calibration_reason": "Although isotonic calibration slightly reduced diffuse-ratio RMSE and DNI RMSE, it worsened DNI/DHI MAE, absolute bias, monthly energy bias and energetic diffuse partition on TEST.",
+  "canonical_postprocessing": "NONE",
+  "approved_for_next_stage": true,
+  "next_stage": "Synthetic 2050 generation pipeline",
+  "canonical_metrics": {
+    "global_GHI": {
+      "RMSE_Wm2": 101.27738719655606,
+      "MAE_Wm2": 51.285540904320065,
+      "Bias_Wm2": 6.036315033348974,
+      "R2": 0.895911069489624
+    },
+    "global_DNI": {
+      "RMSE_Wm2": 186.07705783237455,
+      "MAE_Wm2": 101.67398497947852,
+      "Bias_Wm2": -6.165031728582865,
+      "R2": 0.5894761458529818
+    },
+    "global_DHI": {
+      "RMSE_Wm2": 63.417635703090205,
+      "MAE_Wm2": 31.11342323240596,
+      "Bias_Wm2": 10.012432113501735,
+      "R2": 0.7843592008056642
+    },
+    "daytime_GHI": {
+      "RMSE_Wm2": 145.1210854539028,
+      "MAE_Wm2": 104.98883002721335,
+      "Bias_Wm2": 12.725026749234823,
+      "R2": 0.7627029745914338
+    },
+    "daytime_DNI": {
+      "RMSE_Wm2": 266.5270261193049,
+      "MAE_Wm2": 207.920870258636,
+      "Bias_Wm2": -11.824175256123487,
+      "R2": 0.30303564065455135
+    },
+    "daytime_DHI": {
+      "RMSE_Wm2": 90.8625611772061,
+      "MAE_Wm2": 63.584309443963406,
+      "Bias_Wm2": 20.86994023510357,
+      "R2": 0.5153518002873183
+    }
+  },
+  "canonical_energy": {
+    "GHI": {
+      "true_energy_kWh_m2": 4017.91650390625,
+      "pred_energy_kWh_m2": 4123.60009765625,
+      "energy_bias_pct": 2.630308361242788
+    },
+    "DNI": {
+      "true_energy_kWh_m2": 3190.87548828125,
+      "pred_energy_kWh_m2": 3082.93798828125,
+      "energy_bias_pct": -3.3826923174034604
+    },
+    "DHI": {
+      "true_energy_kWh_m2": 1741.2080078125,
+      "pred_energy_kWh_m2": 1916.5057373046875,
+      "energy_bias_pct": 10.067592654390333
+    }
+  },
+  "canonical_diffuse_ratio": {
+    "point_true": 0.5652092695236206,
+    "point_pred": 0.5409654974937439,
+    "point_bias": -0.02424377202987671,
+    "energy_true": 0.4333609342575073,
+    "energy_pred": 0.46476516127586365,
+    "energy_bias": 0.03140422701835632
+  }
+}

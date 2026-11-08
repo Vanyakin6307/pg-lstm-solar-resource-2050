@@ -1,0 +1,76 @@
+{
+  "project": "Tumbabiro synthetic solar resource 2050",
+  "site": {
+    "latitude": 0.45,
+    "longitude": -78.18,
+    "elevation_m": 2050.0,
+    "timezone": "Etc/GMT+5"
+  },
+  "historical_period": "1998-2024",
+  "synthetic_year": 2050,
+  "model": {
+    "name": "PI-LSTM V2.4 V1",
+    "L": 72,
+    "H": 24,
+    "historical_features": 34,
+    "future_features": 17,
+    "kDNI_max": 1.2,
+    "kDHI_max": 8.0,
+    "qDHI_max": 2.1972245773362196
+  },
+  "files": {
+    "historical_NSRDB": {
+      "name": "consol_tumbabiro_2026_total.csv",
+      "sha256": "6221292bd639401d7cbba40e4aec8deff2181093ccd380db19edd6ccee9378ba"
+    },
+    "physical_2050_base": {
+      "name": "physical_2050_base.csv",
+      "sha256": "230cf4a767e52917b803f4c1a45add56c48a89aa88962fe3962188e265b9fd1f"
+    },
+    "model": {
+      "name": "PI_LSTM_V2_4_V1_logDHI_partition_stride2.keras",
+      "sha256": "5aef4783a3dc0b37b98711ebb489d20458f6c5efd2308ca579909e4cc8724a4e"
+    },
+    "raw_2050": {
+      "name": "PI_LSTM_V24V1_2050_RAW.csv",
+      "sha256": "2ca50f1650ded4cf27e41ebd31bfe03b6fd48e4a9c234e8d7ba07d4be4cdbc82"
+    },
+    "post_candidate": {
+      "name": "PI_LSTM_V24V1_2050_POST_CANDIDATE.csv",
+      "sha256": "b3cb630c759dc96135c82a492cdad02f2d80803984acf5a5ebc1a40a118d25a8"
+    },
+    "final_resource": {
+      "name": "PI_LSTM_V24V1_2050_FINAL_RESOURCE.csv",
+      "sha256": "6a2d688bd510f82279af8ff9f89beedfd5d8de36e39cff8c237a7f64fd055872"
+    }
+  },
+  "decision": {
+    "status": "ACCEPTED_SYNTHETIC_2050_RESOURCE",
+    "interpretation": "Synthetic 2050 solar resource year conditioned on the historical NSRDB climatological regime and 2050 solar geometry; not a CMIP6/SSP climate projection.",
+    "generator": "PI-LSTM V2.4 V1 RAW",
+    "model_post_calibration": "NONE",
+    "isotonic_calibration": "REJECTED",
+    "climatological_postprocess": "Monthly minimum-intervention constraint using historical P05-P95 bounds for GHI energy and diffuse energy ratio.",
+    "global_reconciliation": "Minimum global scalar satisfying annual GHI/DNI/DHI and monthly GHI climatological constraints.",
+    "global_scale": 0.965714130144508,
+    "global_scale_change_pct": -3.428586985549198,
+    "rows": 17520,
+    "frequency_minutes": 30,
+    "start": "2050-01-01 00:00:00",
+    "end": "2050-12-31 23:30:00",
+    "annual_energy": {
+      "GHI_kWh_m2": 2079.700656618633,
+      "DNI_kWh_m2": 1636.087439930689,
+      "DHI_kWh_m2": 902.3798999999999
+    },
+    "annual_diffuse_energy_ratio": 0.43389893498767823,
+    "closure_mae_Wm2": 1.2218392916531796e-14,
+    "closure_max_abs_Wm2": 2.2737367544323206e-13,
+    "night_leakage_count": 0,
+    "negative_count": 0,
+    "nan_count": 0,
+    "inf_count": 0,
+    "kDNI_final_max": 0.9003454703012161,
+    "kDNI_cap": 1.2
+  }
+}
