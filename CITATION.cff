@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this research software or its associated computational resources, please cite this repository."
+type: software
+title: "Physics-Guided LSTM for Synthetic Solar Irradiance Generation in Tumbabiro, Ecuador"
+authors:
+  - family-names: "Tafur-Escanta"
+    given-names: "Paul"
+    affiliation: "Universidad Técnica del Norte, Ecuador"
+  - family-names: "Quinteros-Campaña"
+    given-names: "Iván"
+    affiliation: "Universidad de las Fuerzas Armadas – ESPE, Ecuador"
+  - family-names: "León-Lara"
+    given-names: "Gustavo"
+    affiliation: "Universidad de las Fuerzas Armadas – ESPE, Ecuador"
+  - family-names: "Chamorro-Lima"
+    given-names: "Mateo"
+    affiliation: "Universidad Técnica del Norte, Ecuador"
+  - family-names: "Valencia-Chapi"
+    given-names: "Robert"
+    affiliation: "Universidad Politécnica de Madrid, Spain"
+abstract: >-
+  Research software and computational resources supporting physics-guided
+  LSTM modeling and synthetic solar irradiance generation for Tumbabiro,
+  Ecuador. The repository includes model artifacts, preprocessing and
+  validation workflows, a synthetic 2050 solar resource, and NREL SAM/PySAM
+  photovoltaic and techno-economic simulation resources.
+repository-code: "https://github.com/Vanyakin6307/pg-lstm-solar-resource-2050"
+version: "v1.0.0-mdpi-sustainability"
+keywords:
+  - "solar irradiance"
+  - "physics-guided LSTM"
+  - "synthetic solar resource"
+  - "GHI"
+  - "DNI"
+  - "DHI"
+  - "SAM"
+  - "PySAM"
